@@ -6,7 +6,7 @@ Epoch:		0
 License:	GPL
 Group:		Development/Tools
 Source0:	http://www.chipx86.com/linuxstuff/gettext/%{name}
-# Source0-md5:	73f1ea0228a1d71475b6881aadccf0fc
+# NoSource0-md5:	73f1ea0228a1d71475b6881aadccf0fc
 URL:		http://www.chipx86.com/linuxstuff/gettext/
 Requires:	gettext-autopoint
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -15,6 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This script is intended to be used instead of either gettextize or
 autopoint. It handles most of the magic of cross-version
 compatibility.
+
+%prep
 
 %install
 rm -rf $RPM_BUILD_ROOT
