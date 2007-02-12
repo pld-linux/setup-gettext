@@ -1,5 +1,5 @@
 Summary:	Script intended to be used instead of either gettextize or autopoint
-Summary(pl.UTF-8):   Skrypt do używania zamiast gettextize lub autopoint
+Summary(pl.UTF-8):	Skrypt do używania zamiast gettextize lub autopoint
 Name:		setup-gettext
 Version:	0.1.5
 Release:	1
