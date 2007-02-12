@@ -1,5 +1,5 @@
 Summary:	Script intended to be used instead of either gettextize or autopoint
-Summary(pl):	Skrypt do u¿ywania zamiast gettextize lub autopoint
+Summary(pl.UTF-8):   Skrypt do uÅ¼ywania zamiast gettextize lub autopoint
 Name:		setup-gettext
 Version:	0.1.5
 Release:	1
@@ -17,9 +17,9 @@ This script is intended to be used instead of either gettextize or
 autopoint. It handles most of the magic of cross-version
 compatibility.
 
-%description -l pl
-Ten skrypt mo¿e byæ u¿ywany zamiast gettextize lub autopoint.
-Obs³uguje wiêksz± czê¶æ magii zwi±zanej z kompatybilno¶ci± z ró¿nymi
+%description -l pl.UTF-8
+Ten skrypt moÅ¼e byÄ‡ uÅ¼ywany zamiast gettextize lub autopoint.
+ObsÅ‚uguje wiÄ™kszÄ… czÄ™Å›Ä‡ magii zwiÄ…zanej z kompatybilnoÅ›ciÄ… z rÃ³Å¼nymi
 wersjami gettexta.
 
 %prep
